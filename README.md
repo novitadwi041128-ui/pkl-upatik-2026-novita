@@ -1,6 +1,5 @@
-Siapa Kalian
-Nama: Dwi Novita
-Instansi/Asal: Upatik
+Nama: Dwi Nofitasari
+Instansi/Asal: Upatik,SMK NEGERI 1 KERTOSONO
 
 Apa yang Dipelajari Selama PKL Sejauh Ini
 Selama mengikuti kegiatan PKL dari Minggu 1 hingga Minggu 6, materi dan keterampilan utama yang telah dipelajari meliputi:
