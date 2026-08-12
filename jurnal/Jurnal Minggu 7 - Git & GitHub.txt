@@ -1,0 +1,10 @@
+Jurnal Minggu 7 - Git & GitHub
+Apa yang Dipelajari:
+- **Senin (Dasar Git):** Memahami fungsi Git untuk manajemen versi, konfigurasi identitas, dan praktik perintah dasar (`init`, `add`, `commit`, `log`).
+- **Selasa (GitHub & Struktur):** Menata ulang karya Minggu 1–6 ke dalam struktur folder yang rapi dan memahami perbedaan antara `Git` (lokal) dan `GitHub` (remote).
+- **Rabu (Branching & Konflik):** Praktik menggunakan `branch` untuk fitur baru dan belajar mengatasi *Merge Conflict* (penanda `<<<<<<<`, `=======`, `>>>>>>>`).
+- **Kamis (Kolaborasi):** Simulasi alur kerja tim menggunakan *Pull Request* (PR) dan saling me-*review* kode antar teman.
+Pengalaman & Catatan:
+- Mempelajari bahwa konflik saat *merge* adalah hal yang **normal** dan merupakan bagian dari proses kolaborasi.
+- Mengerti pentingnya menulis pesan *commit* yang deskriptif sebagai dokumentasi riwayat pekerjaan.
+- Menyadari pentingnya struktur folder yang rapi dan file `README.md` agar repository mudah dipahami orang lain.
