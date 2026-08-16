@@ -1,0 +1,4 @@
+Jurnal Minggu 8 - PHP Dasar
+- Belajar dasar syntax PHP dan koneksi dengan HTML.
+- Membuat perulangan data siswa menggunakan foreach.
+- Memisahkan kode menggunakan include (header.php & footer.php).
