@@ -23,6 +23,7 @@ $daftar_siswa = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
 
+    <p><a href="tambah-siswa.php">+ Tambah Siswa Baru</a></p>
     <h2>Daftar Siswa (Read dari Database)</h2>
 
     <table>
