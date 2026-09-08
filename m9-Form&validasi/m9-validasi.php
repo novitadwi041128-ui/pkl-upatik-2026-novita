@@ -31,8 +31,8 @@ if (isset($_POST['daftar'])) {
         $errors[] = "Umur wajib diisi.";
     } elseif (!is_numeric($umur)) {
         $errors[] = "Umur harus berupa angka.";
-    } elseif ($umur < 10 || $umur > 100) {
-        $errors[] = "Umur harus berada di rentang 10 sampai 100 tahun.";
+    } elseif ($umur < 25 || $umur > 50) {
+        $errors[] = "Umur harus berada di rentang 25 sampai 50 tahun.";
     }
 
     // 5. Jika array errors kosong, berarti lolos validasi semua
