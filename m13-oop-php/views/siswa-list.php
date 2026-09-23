@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Siswa</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #e2f0d9; }
+    </style>
+</head>
+<body>
+<h2>Daftar Siswa (Mini-MVC)</h2>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Kelas</th>
+        <th>Jurusan</th>
+        <th>Tgl Daftar</th>
+    </tr>
+    <?php $no = 1; foreach ($dataSiswa as $siswa): ?>
+    <tr>
+        <td><?= $no++; ?></td>
+        <td><?= htmlspecialchars($siswa['nama']); ?></td>
+        <td><?= htmlspecialchars($siswa['email']); ?></td>
+        <td><?= htmlspecialchars($siswa['nama_kelas']); ?></td>
+        <td><?= htmlspecialchars($siswa['nama_jurusan']); ?></td>
+        <td><?= htmlspecialchars($siswa['tanggal_daftar'] ?? '-'); ?></td>
+    </tr>
+    <?php endforeach; ?>
+</table>
+</body>
+</html>

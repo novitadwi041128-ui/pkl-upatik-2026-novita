@@ -17,7 +17,7 @@ $halaman_awal = ($halaman > 1) ? ($halaman * $batas) - $batas : 0;
 // Menangkap keyword pencarian
 $cari = isset($_GET['cari']) ? $_GET['cari'] : '';
 
-// Hitung total data untuk pagination
+//  data untuk pagination
 if ($cari != '') {
     $stmt_jml = $pdo->prepare("SELECT COUNT(*) FROM siswa s WHERE s.nama LIKE ?");
     $stmt_jml->execute(["%$cari%"]);
